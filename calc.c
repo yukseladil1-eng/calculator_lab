@@ -2,7 +2,7 @@
 // Repository: calculator_lab
 // Compile with: gcc -O2 -Wall -Wextra -std=c17 -o calc calc.c -lm
 // Resources used: course lab PDF; calc-tests.zip; OpenAI ChatGPT/Codex (conversation history to be supplied).
-
+//ChatGPT conservation link: https://chatgpt.com/s/cx_6ade82dc51f4819196bf64d6420185c8
 // Compile: gcc -O2 -Wall -Wextra -std=c17 -o calc calc.c -lm
 
 #include <stdio.h>
