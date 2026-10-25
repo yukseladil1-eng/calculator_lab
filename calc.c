@@ -589,7 +589,7 @@ int processFile(char *filename, char *outdir)
         write_ok = fprintf(out, "ERROR:%zu\n", first_error) >= 0;}
          else {write_ok = evaluate_file(out, 1);}
     if (fclose(out) != 0) {write_ok = 0;}
-    if (!write_ok) {printf(stderr, "calc: cannot write %s\n", output_path);}
+    if (!write_ok) {fprintf(stderr, "calc: cannot write %s\n", output_path);}
     free(text);
     free(output_name);
     free(output_path);
